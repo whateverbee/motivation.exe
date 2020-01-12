@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(#1b4b85, #661678);
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.container-header {
+  margin-top: 0;
+  border-bottom: 1px solid #ffffff;
+  display: inline-flex;
+  width: 100%;
+}
+
+.container-header p {
+  text-align: center;
+  padding: 1px;
+  margin: 1px 5% 0px 1px;
+  width: 97%;
+}
+
+.window-icon {
+  font-size: large;
+}
+
+.title {
+  font-weight: lighter;
+}
+
+.container {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  max-width: 50%;
+  max-height: 30%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  background-color: rgba(255,255,255,0.1);
+}
+
+.container-body {
+  height: 90%;
+  position: relative;
+}
+
+#message {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.top-cloud {
+  position: absolute;
+  top: -10;
+  left: 96%;
+  font-size: 3rem;
+  opacity: 95%;
+}
+
+.bottom-cloud {
+  font-size: 3.5rem;
+  position: absolute;
+  bottom: -15;
+  left: -5%;
+  opacity: 95%;
+}
